@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Box Exercises</title>
+
+  <style> 
+    .back {
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      margin-right: 10px;
+      margin-left: 2px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .next {
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      margin-right: 2px;
+      margin-left: 10px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .select {
+      margin-right: 5px;
+      margin-left: 5px;
+      font-size: 18px;
+    }
+
+    .str {
+      background-color: green;
+      color: white;
+      border: none;
+      padding: 5px;
+      padding-left: 15px;
+      padding-right: 15px;
+      font-size: 16px;
+      transition: padding 0.15s, padding-left 0.15s, padding-right 0.15s;
+    }
+
+    .str:hover {
+      padding: 30px;
+      padding-left: 45px;
+      padding-right: 45px;
+    }
+
+    .shadow {
+      background-color: green;
+      color: white;
+      border: none;
+      padding: 5px;
+      padding-left: 15px;
+      padding-right: 15px;
+      font-size: 16px;
+      box-shadow: 5px 5px 5px grey;
+      cursor: pointer;
+    }
+
+    .shadow:active {
+      box-shadow: none;
+      margin-top: 3px;
+      margin-left: 3px;
+    }
+
+    .one {
+      background-color: green;
+      color: white;
+      padding: 8px;
+      padding-left: 15px;
+      padding-right: 15px;
+      cursor: pointer;
+      margin-left: 6px;
+      margin-right: 6px;
+      border: none;
+      transition: padding-left 0.15s, padding-right 0.15s, margin-left 0.15s, margin-right 0.15s;
+    }
+
+    .one:hover {
+      padding-left: 19px;
+      padding-right: 19px;
+      margin-left: 2px;
+      margin-right: 2px;
+    }
+
+  </style>
+</head>
+<body>
+  <button class = "back"> Back </button>
+  <a class = "select" href="twitter.com"> 1</a>
+  <a class = "select" href="twitter.com"> 2</a>
+  <a class = "select" href="twitter.com"> 3</a>
+  <a class = "select" href="twitter.com"> 4</a>
+  <a class = "select" href="twitter.com"> 5</a> 
+  <button class = "next"> Next </button>
+
+  <br><br><br>
+  <button class = "str">Stretch</button> 
+  <br><br><br>
+  <button class = "shadow">Shadow</button>
+  <br><br><br>
+
+  <button class = "one">One</button>
+  <button class = "one">Two</button>
+  <button class = "one">Three</button>
+</body>
+</html>
